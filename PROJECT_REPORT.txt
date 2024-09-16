@@ -1,0 +1,53 @@
+******************************************************
+TODO_APP Mobil Uygulamam(gorev -yapılacak listelesi)
+******************************************************
+
+Todo Uygulaması Akış Raporu
+
+1. Giriş Ekranı
+
+Uygulama açıldığında bir splash ekranı görüntülenir.
+Kullanıcı uygulamanın ana ekranına yönlendirilir.
+
+2. Ana Ekran
+
+Görev Arama Çubuğu: Kullanıcı, mevcut görevleri aramak için bir metin kutusu kullanabilir.
+Görev Listesi: Kullanıcının oluşturduğu görevlerin listesi. Her görev, tamamlanma durumu ve ilgili kategori ile birlikte görüntülenir.
+Kategori Gösterimi: Kullanıcı oluşturduğu kategoriler yatay bir kaydırma menüsünde gösterilir.
+
+3. Görev Ekleme
+
+Kullanıcı, "+" butonuna tıklayarak yeni bir görev ekleme ekranına geçer.
+Görev Metni: Kullanıcıdan görev açıklaması istenir.
+Kategori Seçimi: Kullanıcı mevcut kategorilerden birini seçer veya yeni kategori ekleyebilir.
+Ekle Butonu: Kullanıcı görev bilgilerini girdikten sonra "Ekle" butonuna tıklar.
+
+4. Görev Düzenleme
+
+Kullanıcı, mevcut görevlerden birine tıkladığında düzenleme ekranı açılır.
+Kullanıcı, görev metnini ve kategorisini değiştirebilir.
+Güncelle Butonu: Değişiklikler kaydedilir.
+
+5. Görev Tamamlama
+
+Kullanıcı, görev listesinde bir görevin yanındaki onay kutusunu işaretleyerek görevi tamamlayabilir.
+Tamamlanan görevler, üzeri çizili bir şekilde gösterilir.
+
+6. Görev Silme
+
+Kullanıcı, görev listesindeki bir görevi silmek için "sil" simgesine tıklayarak onay penceresi açar.
+Onay verildiğinde görev listeden kaldırılır.
+
+7. Kategori Yönetimi
+
+Kullanıcı, kategori eklemek veya silmek için kategori bölümüne erişebilir.
+Yeni kategori eklemek için bir metin kutusu açılır.
+Kullanıcı, mevcut kategorilerden birini silmek için "sil" simgesine tıklayarak onay verir.
+
+8. Veri Yönetimi
+
+Tüm görevler ve kategoriler, uygulama kapatıldığında bile kaydedilir. Bu, SharedPreferences kullanılarak yapılır.
+Uygulama her açıldığında, önceki veriler yüklenir.
+
+Sonuç
+Bu akış, kullanıcıların görevlerini etkili bir şekilde yönetmelerini sağlar. Kullanıcı dostu arayüz ve basit navigasyon ile kullanıcıların uygulamayı rahatça kullanabilmesi hedeflenmiştir.

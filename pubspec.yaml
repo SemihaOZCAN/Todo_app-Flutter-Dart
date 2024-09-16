@@ -1,0 +1,42 @@
+name: todo_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.4.1
+  shared_preferences: ^2.0.11
+  google_fonts: ^6.2.1  # Güncellenmiş sürüm
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: "assets/LOGO_TODO_APP.png"  # Proje dizininde assets klasörüne taşıyın
+  android: 
+    enable: true
+  ios: 
+    enable: true  # Burayı düzelttik
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/LOGO_TODO_APP.png"  # Proje dizininde assets klasörüne taşıyın
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/LOGO_TODO_APP.png  # Logo dosyasını assets dizininde tanımlayın
